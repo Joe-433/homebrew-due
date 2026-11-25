@@ -1,8 +1,8 @@
 # Homebrew cask for DUE. Install: brew tap joe-433/due && brew trust joe-433/due && brew install --cask due
 # The release script in the (private) source repository rewrites version and sha256 on every release.
 cask "due" do
-  version "1.3.1"
-  sha256 "bf7c13804fe9ef302b927a3089dc40dc69ebaf2f460501f26d71020efb413bc9"
+  version "1.4.0"
+  sha256 "da1eeda254906c8112f9321d2c3174127918d2af0683d945752f512c766d9eab"
 
   url "https://github.com/Joe-433/homebrew-due/releases/download/v#{version}/DUE-#{version}.dmg"
   name "DUE"
