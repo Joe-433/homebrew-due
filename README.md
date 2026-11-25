@@ -8,22 +8,17 @@ This repository holds only the app's releases. You need macOS 26 or later and an
 
 ## Install
 
-With Homebrew:
+**Most people:** download `DUE-<version>.dmg` from the
+[latest release](https://github.com/Joe-433/homebrew-due/releases/latest), open it and drag DUE onto Applications.
+
+**With Homebrew**, one line:
 
 ```bash
-brew tap joe-433/due
+brew tap joe-433/due && brew trust joe-433/due && brew install --cask due
 ```
 
-```bash
-brew trust joe-433/due
-```
-
-```bash
-brew install --cask due
-```
-
-Or download `DUE-<version>.dmg` from the [latest release](https://github.com/Joe-433/homebrew-due/releases/latest),
-open it and drag DUE onto Applications.
+(Homebrew asks you to add and trust any repo that isn't its own before installing from it; that's the first two
+parts.)
 
 The first time, macOS may say DUE can't be opened: go to System Settings > Privacy & Security and click
 **Open Anyway** (once). Then DUE's setup window walks you through your Apollo API key (Apollo > Admin > API Keys >
